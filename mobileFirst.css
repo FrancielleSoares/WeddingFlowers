@@ -10,47 +10,26 @@ html{
   width: 100%;
 }
 
+html * {
+  box-sizing: border-box;
+}
+
 body{
+  width: 100%;
   font-family: 'Titillium Web', sans-serif;
   color: #666666;
   text-align: center;
 }
 
-.box{
-  background-color: #fff;
-  width: 500px;
-  margin: 50px auto;
-}
-
-#title {
-  font-size: 30px;
-  margin-top: 25px;
-}
-
-#logo {
-  margin-top: 25px;
-  max-width: 365px;
-  height: auto;
-}
-
-#logo-task {
-  width: 75px;
+.u-body {
+  font-family: 'Open Sans',sans-serif;
 }
 
 
-
-
-
-
-.headerlogo{
-  border: 5px dashed #fff;
-  float: left;
-  font-size: 1%;
-}
-
-.headername
- {
+/** HEADER ************************************/
+.headername{
   width: 100%;
+  padding: 30px 20px;
 }
 
 .name {
@@ -61,40 +40,47 @@ body{
   font-size: 570%;
   font-family: 'Hurricane', 'cursive';
 }
-  
-.paragrafo {
-  padding-inline: 20%;
+
+.p2 {
+  padding-top: 40px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-size: 240%;
   text-align: center;
-  line-height: 1.6;
 }
 
-.u-body {
-  font-family: 'Open Sans',sans-serif;
-}
 
-.images {
+/** MAIN ******************************/
+.image1 {
+  width: 100%;
+}
+.image2 {
   width: 100%;
 }
 
+.image-ultima {
+  width: 100%;
+}
 
+ 
+.paragrafo {
+  padding-inline: 20%;
+  text-align: center;
+  line-height: 32px;
+}
+
+/** FOOTER ****************/
 footer {
   background-color: rgb(191, 204, 119);
 	text-align: center;
 	padding: 40px 0;
 }
-  @media screen and (min-width: 768px){
-
-  }
-  
-  @media screen and (min-width:1281px){
-  
-  }
 
 .copyright{
 	color: #000000;
 	font-size: 15px;
 	margin: 20px 0 0;
 }
+
 
 /* ---------- media query --------- */
 /* @media (min-width:480px) { /* smartphones */  
