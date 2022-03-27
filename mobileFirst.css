@@ -53,10 +53,10 @@ body{
 .grid {
 	display: grid;
 }
-
 .grid-template-columns-3 {
 	grid-template-columns: 1fr 2fr 1fr;
 }
+
 
 
 
@@ -67,6 +67,10 @@ body{
 .image2 {
   width: 100%;
 }
+.image3 {
+  width: 100%;
+}
+
 
 .image-ultima {
   width: 100%;
