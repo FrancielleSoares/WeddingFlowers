@@ -50,6 +50,17 @@ body{
 
 
 /** MAIN ******************************/
+.grid {
+	display: grid;
+}
+
+.grid-template-columns-3 {
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+
+
+
 .image1 {
   width: 100%;
 }
