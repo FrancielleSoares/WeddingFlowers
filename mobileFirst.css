@@ -39,8 +39,6 @@ body{
 
 
 
-
-/*
 .headerlogo{
   border: 5px dashed #fff;
   float: left;
@@ -74,7 +72,8 @@ footer {
 	color: #000000;
 	font-size: 15px;
 	margin: 20px 0 0;
-}*/
+}
+
 /* ---------- media query --------- */
 /* @media (min-width:480px) { /* smartphones */  
 /* @media (min-width:768px) { /* tablet */ 
