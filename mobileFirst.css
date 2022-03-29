@@ -51,7 +51,15 @@ body{
   width: 100%;
   text-align: center;
   font-family: 'Montserrat Subrayada', sans-serif;
+}
 
+.u-body {
+  font-family: 'Open Sans',sans-serif;
+}
+
+.images {
+  
+  width: 100%;
 }
 
 
