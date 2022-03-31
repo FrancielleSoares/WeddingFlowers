@@ -58,8 +58,10 @@ body{
 }
 
 
-
-
+.image {
+	margin: 10px 0px;
+	background: rgb(252, 252, 252);
+}
 
 .image1 {
   width: 100%;
