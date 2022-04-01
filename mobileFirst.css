@@ -59,22 +59,21 @@ body{
   --secoColor: #555555;
   --cornerRad: 4px;
 }
-body {
+
+details {
+  margin: 40px 0px 40px 96%;
   background-color: var(--primColor);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-}
-details {
-  margin: 40px;
 }
 summary {
   writing-mode: vertical-lr;
   text-align: center;
   padding: 12px 10px;
-  width: 23px;
-  height: 17px;
+  width: 31px;
+  height: 31px;
   background-color: var(--primColor);
-  border: 2px solid var(--secoColor);
+  border: 1px solid var(--secoColor);
   border-radius: var(--cornerRad);
   color: var(--secoColor);
   cursor: pointer;
@@ -84,16 +83,16 @@ summary {
 }
 summary::before,
 summary::after {
-  position: static;
-  top: 0;
-  left: 0;
+  position: relative;
+    top: -7px;
+    left: -25px;
 }
 summary::before {
   content: "";
 }
 summary::after {
   content: "III";
-  letter-spacing: -1px;
+  letter-spacing: 1px;
 }
 summary:hover {
   transform: scale(1.1);
@@ -147,7 +146,7 @@ details[open] summary::after {
 details::before {
  
   position: absolute;
-  margin-left: 80px;
+  margin-left: 70px;
   padding: 10px 10px;
   opacity: 0.4;
 }
@@ -205,7 +204,6 @@ details[open]::before {
 
 .image-ultima {
   width: 100%;
-  writing-mode: horizontal-tb;
 }
 
  
