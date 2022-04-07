@@ -1,6 +1,7 @@
 <h1 align="center">Wedding Flowers</h1>
 <h2 align="center">photographs</h2>
-
+<br>
+<br>
 <p align="center">Home page of the exhibition of a photographer's work, with images, the possibility of contact and warmth in the delicacy of the presentation.</p>
 
 <h3 align="center">
