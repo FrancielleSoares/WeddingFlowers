@@ -1,17 +1,7 @@
-/* footer 
-
-.u-footer {
-    height: 100%;
-    width:100%;
-    background: #ddd;
-  }
-*/
-
 
 html{
   width: 100%;
 }
-
 html * {
   box-sizing: border-box;
 }
@@ -33,7 +23,6 @@ body{
   width: 100%;
   padding: 30px 20px;
 }
-
 .name {
   padding-inline: 1%;
   width: 100%;
@@ -42,7 +31,6 @@ body{
   font-size: 570%;
   font-family: 'Hurricane', 'cursive';
 }
-
 .p2 {
   padding-top: 40px;
   font-family: 'Montserrat Alternates', sans-serif;
@@ -51,21 +39,16 @@ body{
 }
 
 
-
-
-
 /*** Menu Button Hamburger ***/
 #menu {
   z-index: 2;
 }
-
 #menu-bar {
   width: 45px;
   height: 40px;
   margin: 30px 0 20px 20px;
   cursor: pointer;
 }
-
 .bar {
   height: 5px;
   width: 100%;
@@ -74,45 +57,36 @@ body{
   border-radius: 5px;
   transition: 0.3s ease;
 }
-
 #bar1 {
   transform: translateY(-4px);
 }
-
 #bar3 {
   transform: translateY(4px);
 }
-
 .nav {
   transition: 0.3s ease;
   display: none;
 }
-
 .nav ul {
   padding: 0 22px;
 }
-
 .nav li {
   list-style: none;
   padding: 12px 0;
 }
-
 .nav li a {
   color: white;
   font-size: 20px;
   text-decoration: none;
 }
-
 .nav li a:hover {
   font-weight: bold;
 }
-
 .menu-bg, #menu {
   top: 0;
   left: 0;
   position: absolute;
 }
-
 .menu-bg {
   z-index: 1;
   width: 0;
@@ -122,27 +96,21 @@ body{
   border-radius: 50%;
   transition: 0.3s ease;
 }
-
 .change {
   display: block;
 }
-
 .change .bar {
   background-color: white;
 }
-
 .change #bar1 {
   transform: translateY(4px) rotateZ(-45deg);
 }
-
 .change #bar2 {
   opacity: 0;
 }
-
 .change #bar3 {
   transform: translateY(-6px) rotateZ(45deg);
 }
-
 .change-bg {
   width: 520px;
   height: 460px;
@@ -150,29 +118,55 @@ body{
 }
 
 
-
-
 /** MAIN ******************************/
+/* fotos coloridas */
+.container {
+  background-color: rgb(255, 51, 0);
+  border: 15px solid rgb(171, 94, 206);
+  padding: 15px;
+  display: grid; 
+  grid-template-columns: auto auto auto;
+}
+.container div {
+  background-color: rgb(9, 255, 0);
+  padding: 20px;
+  border: 1px solid blue;
+}
+
+#item-1 {
+
+}
+#item-2 {
+  
+}
+#item-3 {
+  
+}
+#item-4 {
+  
+}
+
+
+
+
+/* fotos preto e branco */
 .grid {
 	display: grid;
 }
 .grid-template-columns-3 {
 	grid-template-columns: 1fr 2fr 1fr;
 }
-
-
 .image {
 	margin: 10px 0px;
 	background: rgb(252, 252, 252);
 }
-
-.image1 {
+.image4 {
   width: 100%;
 }
-.image2 {
+.image5 {
   width: 100%;
 }
-.image3 {
+.image6 {
   width: 100%;
 }
 
@@ -181,12 +175,13 @@ body{
   width: 100%;
 }
 
- 
+
 .paragrafo {
   padding-inline: 20%;
   text-align: center;
   line-height: 32px;
 }
+
 
 /** FOOTER ****************/
 footer {
@@ -194,7 +189,6 @@ footer {
 	text-align: center;
 	padding: 40px 0;
 }
-
 .copyright{
 	color: #666666;
 	font-size: 15px;
