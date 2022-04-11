@@ -108,6 +108,7 @@ html * {
 
 /** MAIN ******************************/
       /* fotos coloridas */
+
 .section-images {
   display: flex;
   justify-content: space-around;
@@ -119,7 +120,6 @@ html * {
   padding-top: 10%;
   width: 60%;
 }
-
 
 .container-1 {
   width: 50%;
@@ -173,23 +173,30 @@ html * {
 	grid-template-columns: 1fr 2fr 1fr;
 }
 .image {
-	margin: 10px 0px;
+	margin-top: 100px;
 	background: rgb(252, 252, 252);
 }
 .image-4 {
   width: 100%;
 }
-.image5 {
+.image-5 {
   width: 100%;
 }
-.image6 {
+.image-6 {
   width: 100%;
 }
 
 
 
+
+.image1 {
+  display: flex;
+  justify-content: space-around;
+}
 .image-ultima {
-  width: 100%;
+  width: 80%;
+  border-radius: 70px;
+
 }
 
 
