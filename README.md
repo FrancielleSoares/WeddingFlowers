@@ -8,7 +8,7 @@
     <a href="https://franciellesoares.github.io/WeddingFlowers/">🔗 Site link here</a>
 </h3>
 
-![Image desmonstração](images/image-capture.jpeg)   
+![demo image](images/image-capture.jpeg)   
 
 <img src="https://img.shields.io/badge/language-JavaScript-yellow"/>
 <img src="https://img.shields.io/badge/language-HTML-orange"/>
