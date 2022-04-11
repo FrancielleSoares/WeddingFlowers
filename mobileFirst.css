@@ -115,8 +115,10 @@ html * {
   padding-top: 10%;
 }
 
+
 .container-1 {
-  width: 50%
+  width: 50%;
+  margin-right: 29px;
 }
 .images-first-left {
   display: flex;
@@ -124,6 +126,16 @@ html * {
   justify-content: flex-end;
   margin-top: 50px;
 }
+.image4 {
+  margin-right: 29px;
+}
+
+.image5 {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 29px;
+}
+
 
 .container-2 {
   width: 50%;
@@ -162,7 +174,7 @@ html * {
 	margin: 10px 0px;
 	background: rgb(252, 252, 252);
 }
-.image4 {
+.image-4 {
   width: 100%;
 }
 .image5 {
