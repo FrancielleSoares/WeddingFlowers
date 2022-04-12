@@ -24,25 +24,28 @@
         <script src="scripts.js" defer></script>
     </head>
 
-    <body>
+    <body class="">
         <header id="header">
-            <div id="menu">
-                <div id="menu-bar" onclick="menuOnClick()">
-                <div id="bar1" class="bar"></div>
-                <div id="bar2" class="bar"></div>
-                <div id="bar3" class="bar"></div>
+            <div>
+                <div id="menu">
+                    <div id="menu-bar" onclick="menuOnClick()">
+                        <div id="bar1" class="bar"></div>
+                        <div id="bar2" class="bar"></div>
+                        <div id="bar3" class="bar"></div>
+                    </div>
+                    <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Photos</a></li>
+                    </ul>
+                    </nav> 
                 </div>
-                <nav class="nav" id="nav">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Photos</a></li>
-                </ul>
-                </nav> 
+                <div class="menu-bg" id="menu-bg"></div>
+                <span id="modal" class="" onclick="menuOnClick()"></span>
             </div>
-            <div class="menu-bg" id="menu-bg"></div>
-        
+
             <div class="headername">
                 <p class="name">Wedding Flowers</p>
                 <p class="p2">photographs</p>
@@ -80,12 +83,6 @@
                     </div>
                 </div>
             </section>
-            
-            
-
-
-
-
                 <!-- <div class="box">
                         <img src="images/manutenção.gif" id="logo">
                         <div id="title">
