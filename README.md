@@ -12,8 +12,6 @@
 
 
 
-<img src="https://img.shields.io/badge/language-JavaScript-yellow"/>
-<img src="https://img.shields.io/badge/language-HTML-orange"/>
-<img src="https://img.shields.io/badge/language-CSS-blue"/>
+<img src="https://img.shields.io/badge/language-JavaScript-yellow"/> <img src="https://img.shields.io/badge/language-HTML-orange"/> <img src="https://img.shields.io/badge/language-CSS-blue"/>
 
 ![demo image](images/image-mobile-responsive.png)   
