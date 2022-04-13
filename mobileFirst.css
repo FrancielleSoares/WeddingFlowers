@@ -242,7 +242,7 @@ footer {
   }
   /** HEADER ************************************/
   .headername{ 
-    margin: 50px -40px 30px;
+    margin: 70px 0 14px;
     padding: 30px;
   }
   .name { 
@@ -252,7 +252,6 @@ footer {
     padding-top: 34px;
     font-size: 186%;
   }
-
   /*** Menu Button Hamburger ***/
   #menu-bar { 
     width: 35px;
@@ -281,22 +280,18 @@ footer {
     width: 352px;
     height: 448px;
   }
-  
-  
   /** MAIN ******************************/
         /* fotos coloridas */
-
-  
   .container {
       flex-direction: column;
       flex-wrap: wrap;
       width: 100%;
   }
-  
   .container-1 {
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
+    margin-right: 0px;
   }
   .images-first-left {
     flex-direction: column;
@@ -312,7 +307,7 @@ footer {
     margin-top: 29px;
     border-radius: 15px 50px;
   }
-  
+
   .image5 {
     display: flex;
     justify-content: center;
@@ -322,7 +317,6 @@ footer {
   .border-image5 {
     border-radius: 10px;
   }
-  
   
   .container-2 {
     width: 100%;
@@ -339,43 +333,36 @@ footer {
     margin-right: 5px;
   }
   
-
   .u-text {
-    margin: 60px 0 0;
+    margin: 60px 0 55px;
   }
   .paragrafo {
-    font-size: 20px;
-    margin: 40px;
+    font-size: 18px;
+    margin: 0px;
   }
-  
-  
-  
-  
-  
-  
   /* fotos preto e branco */
   .grid {
     display: grid;
+    justify-content: center;
   }
   .grid-template-columns-3 {
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: none;
   }
   .image {
-    margin-top: 100px;
-    background: rgb(252, 252, 252);
+    margin-top: 0px;
   }
   .image-4 {
+    padding: 5%;
     width: 100%;
   }
   .image-5 {
     width: 100%;
+    padding: 5%;
   }
   .image-6 {
+    padding: 5%;
     width: 100%;
   }
-  
-  
-  
   
   .image1 {
     display: flex;
@@ -384,31 +371,150 @@ footer {
   .image-ultima {
     width: 100%;
     border-radius: 54px;
-  
+    padding: 3%;
   }
-  
-  
-  
-  
   /** FOOTER ****************/
   footer {
-    background-color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 40px 0;
+    width: 100%;
+    padding: 30px 0;
   }
   .copyright{
-    color: #666666;
-    font-size: 15px;
-    margin: 68px 0 20px;
+    font-size: 13px;
   }
   
 }
 
 
 
+/*************************************************************************************************************************/
 
+@media screen and (max-width:768px){
 
-/*@media screen and (min-width:481px) and (max-width:768px){
+  /** HEADER ************************************/
+  .headername{ 
+    padding: 88px;
+  }
+  .name { 
+    font-size: 585%;
+  }
+  .p2 { 
+    padding-top: 44px;
+    font-size: 215%;
+  }
+  /*** Menu Button Hamburger ***/
+  .nav ul { 
+    padding: 0 34px;
+  }
+  .menu-bg, #menu { 
+    top: 24px;
+    left: 15px;
+  }
+  .menu-bg { 
+    margin: 87px 0px 20px 6px;
+  }
+  
+  /** MAIN ******************************/
+        /* fotos coloridas */
+  .container {
+      flex-direction: column;
+      flex-wrap: wrap;
+      width: 100%;
+  }
+  .container-1 {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-right: 0px;
+  }
+  .images-first-left {
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .image4 {
+    margin-right: 0px;
+    border-radius: 40px 10px;
+  }
+  .image3 {
+    margin-top: 29px;
+    border-radius: 15px 50px;
+  }
+
+  .image5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    align-items: center;
+  }
+  .border-image5 {
+    border-radius: 10px;
+  }
+  
+  .container-2 {
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .size-image8 {
+    max-width: 90%;
+    margin-top: 35px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+  
+  .u-text {
+    margin: 60px 0 55px;
+  }
+  .paragrafo {
+    font-size: 18px;
+    margin: 0px;
+  }
+  /* fotos preto e branco */
+  .grid {
+    display: grid;
+    justify-content: center;
+  }
+  .grid-template-columns-3 {
+    grid-template-columns: none;
+  }
+  .image {
+    margin-top: 0px;
+  }
+  .image-4 {
+    padding: 5%;
+    width: 100%;
+  }
+  .image-5 {
+    width: 100%;
+    padding: 5%;
+  }
+  .image-6 {
+    padding: 5%;
+    width: 100%;
+  }
+  
+  .image1 {
+    display: flex;
+    justify-content: space-around;
+  }
+  .image-ultima {
+    width: 100%;
+    border-radius: 54px;
+    padding: 3%;
+  }
+  /** FOOTER ****************/
+  footer {
+    width: 100%;
+    padding: 30px 0;
+  }
+  .copyright{
+    font-size: 13px;
+  }
+  
 
 }
-*/
