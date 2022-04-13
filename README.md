@@ -10,9 +10,10 @@
 
 ![demo image](images/image-capture.jpeg)   
 
+
+
 <img src="https://img.shields.io/badge/language-JavaScript-yellow"/>
 <img src="https://img.shields.io/badge/language-HTML-orange"/>
 <img src="https://img.shields.io/badge/language-CSS-blue"/>
-<h3 align="center"> 
-	🚧   Site 🚀 Under construction...  🚧
-</h3>
+
+![demo image](images/image-mobile-responsive.png)   
